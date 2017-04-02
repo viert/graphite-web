@@ -24,7 +24,6 @@ class MetricSearchFinder:
             raise MetricSearchException("Invalid status code from metricsearch: %d" % r.status)
 
         data = r.data.split("\n")
-        print data
         for line in data:
             if line == "":
                 continue
