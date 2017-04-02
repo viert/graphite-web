@@ -353,3 +353,6 @@ def merge_with_cache(cached_datapoints, start, step, values, func=None):
           pass
 
   return values
+
+class ClickhouseReader(object):
+  pass
